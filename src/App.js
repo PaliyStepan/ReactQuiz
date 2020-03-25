@@ -38,10 +38,7 @@ class App extends Component {
 				{routes}
 			</Layout>
 		) 
-
-
 	}
-
 }
 
 function mapStateToProps(state) {
