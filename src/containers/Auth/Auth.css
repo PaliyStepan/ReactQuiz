@@ -1,0 +1,36 @@
+.Auth {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+	flex-grow: 1;
+	width: 100%;
+	background-color: pink;
+}
+
+.AuthFrom {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	background-color: #ddd;
+	padding: 25px;
+	border-radius: 5px;
+	width: 600px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+.AuthFrom button {
+	margin-bottom: 20px;
+}
