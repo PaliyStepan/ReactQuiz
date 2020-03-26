@@ -8,12 +8,11 @@
 	font-weight: bold;
 	font-size: 12px;
 	cursor: pointer;
+	transition: all 0.2s;
 }
 
-.Button:disabled {
-	background-color: #fff;
-	color: #000;
-	cursor: not-allowed;
+.Button:hover {
+	opacity: 0.8;
 }
 
 
@@ -45,4 +44,5 @@
 	opacity: 0.8;
 	color: #dddd;
 	background-color: #aaa !important;
+	cursor: not-allowed;
 }

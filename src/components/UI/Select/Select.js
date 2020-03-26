@@ -5,7 +5,7 @@ const Select = props => {
 	const htmlFor = `${props.lablel}-${Math.random()}`
 	return(
 		<div className="Select">
-			<label htmlFor=""> </label>
+			<label htmlFor={htmlFor}>{props.label} </label>
 			<select
 				id={htmlFor}
 				value={props.value}

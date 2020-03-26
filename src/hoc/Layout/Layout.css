@@ -1,6 +1,6 @@
 .Layout {
-	hight: auto;
-	hight: 100vh;
+	min-height: 100vh;
+	height: auto;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -25,4 +25,9 @@
 	-o-flex-direction: column;
 	flex-direction: column;
 	flex-grow: 1; 
+}
+
+.fixed {
+	overflow: hidden;
+	height: 100vh;
 }

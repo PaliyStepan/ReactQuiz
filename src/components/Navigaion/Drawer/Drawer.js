@@ -41,12 +41,10 @@ class Drawer extends Component {
 			cls.push('close')
 		}
 
-		console.log('Auth', this.props.isAuthenticated);
-
 
 		const links = [ 
 			{to: '/', label: 'Список', exact: true}
-		]
+		];
 
 		if (this.props.isAuthenticated) {
 			links.push({to: '/quiz-creator', label: 'Создать тест', exact: false})

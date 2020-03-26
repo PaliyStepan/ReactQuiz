@@ -22,8 +22,14 @@ class Layout extends Component{
 	};
 
 	render(){
+		const cls = ['Layout'];
+
+		if (this.state.menu) {
+			cls.push('fixed')
+		}
+
 		return (
-			<div className="Layout">
+			<div className={cls.join(' ')}>
 				<Drawer 
 					isOpen={this.state.menu}
 					onClose={this.menuCloseHandler}
