@@ -5,7 +5,7 @@
 	display: -o-flex;
 	display: flex;
 	justify-content: center;
-	padding-top: 100px;
+	padding: 80px 15px;
 	flex-grow: 1;
 	width: 100%; 
 	background-color: #29b6f6;
@@ -15,5 +15,6 @@
 }
 
 .QuizWrapper {
-	width: 600px;
+	width: 100%;
+	max-width: 600px;
 }

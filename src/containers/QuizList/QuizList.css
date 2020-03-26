@@ -5,7 +5,7 @@
 	display: -o-flex;
 	display: flex;
 	justify-content: center;
-	padding-top: 100px;
+	padding: 80px 15px;
 	background-color: #ddd;
 	flex-grow: 1;
 }

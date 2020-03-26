@@ -166,7 +166,8 @@ class QuizCreator extends Component {
 
 						{select}
 
-						<Button
+						<div className="QuizCreator__footer">
+							<Button
 							type="primary"
 							onClick={this.addQuestionHandler}
 							disabled={!this.state.isFormValid}
@@ -175,13 +176,14 @@ class QuizCreator extends Component {
 						</Button>
 
 
-						<Button
-							type="success"
-							onClick={this.createQuizHandler}
-							disabled={this.props.quiz.length === 0}
-						>
-							Cоздать тест
-						</Button>
+							<Button
+								type="success"
+								onClick={this.createQuizHandler}
+								disabled={this.props.quiz.length === 0}
+							>
+								Cоздать тест
+							</Button>
+						</div>
 
 					</form>
 				</div>

@@ -45,7 +45,7 @@ const FinishedQuiz = props =>{
 
 			<p>Правильно {successCount} из {props.quiz.length} </p>
 
-			<div>
+			<div className="FinishedQuiz__footer">
 				<Button 
 					onClick={props.onRetry}
 					type="primary"

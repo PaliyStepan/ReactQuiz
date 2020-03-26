@@ -5,7 +5,7 @@
 	display: -o-flex;
 	display: flex;
 	justify-content: center;
-	padding: 50px;
+	padding: 80px 15px;
 	flex-grow: 1;
 	width: 100%;
 	background-color: orange;
@@ -22,3 +22,11 @@
 .QuizCreator h1 {
 	text-align: center;
 }
+
+@media only screen and (max-width: 575px) {
+	.QuizCreator__footer button {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+}
+

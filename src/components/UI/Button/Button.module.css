@@ -18,13 +18,15 @@
 
 
 .Button.error {
-	background-color: green;
-}
-.Button.success {
 	background-color: red;
 }
+.Button.success {
+	color: #ffffff;
+	background-color: green;
+}
 .Button.primary {
-	color: #2884f6;
+	background-color: #2884f6;
+	color: #fff;
 }
 
 .Button.login{
@@ -37,4 +39,10 @@
 	background-color: yellow;
 	color: #000;
 	font-weight: bold;
+}
+
+.Button:disabled {
+	opacity: 0.8;
+	color: #dddd;
+	background-color: #aaa !important;
 }

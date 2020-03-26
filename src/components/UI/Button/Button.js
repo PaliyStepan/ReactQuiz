@@ -1,12 +1,16 @@
 import React from 'react'
-import './Button.css'
+import classes from './Button.module.css'
 
 const Button = props => {
+	const cls = [
+		classes.Button,
+		classes[props.type]
+	];
 	return (
 		<button
 			onClick={props.onClick}
 			disabled={props.disabled}
-			className="Button"
+			className={cls.join(' ')}
 		>
 			{props.children}
 		</button>

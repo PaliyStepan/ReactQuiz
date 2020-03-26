@@ -1,5 +1,6 @@
 .Layout {
-	height: 100vh;
+	hight: auto;
+	hight: 100vh;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;

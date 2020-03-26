@@ -137,7 +137,6 @@ class Auth extends Component {
 	render() {
 		return(
 			<div className="Auth">
-				<div>
 					<h1>
 						Авторизация
 					</h1>
@@ -151,17 +150,18 @@ class Auth extends Component {
 						<Button
 							onClick={this.loginHandler}
                             disabled={!this.state.isFormValid}
+							type="login"
 						>
 							Войти
 						</Button>
 						<Button
 							onClick={this.registerHandler}
                             disabled={!this.state.isFormValid}
+							type="register"
 						>
 							Зарегистрироваться
 						</Button>
 					</form>
-				</div>
 			</div>
 		)
 	}
