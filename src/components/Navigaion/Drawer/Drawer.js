@@ -1,7 +1,7 @@
-import React, {Component} from 'react'
-import './Drawer.css'
-import {NavLink} from 'react-router-dom'
-import Backdrop from '../../UI/Backdrop/Backdrop.js'
+import React, {Component} from 'react';
+import './Drawer.css';
+import {NavLink} from 'react-router-dom';
+import Backdrop from '../../UI/Backdrop/Backdrop.js';
 
 
 
@@ -10,7 +10,7 @@ class Drawer extends Component {
 
 	clickHandler = () =>{
 		this.props.onClose()
-	}
+	};
 
 	renderLinks(links){
 		return links.map((link,index) => {
@@ -35,7 +35,7 @@ class Drawer extends Component {
 
 	render () {
 
-		const cls = ['Drawer']
+		const cls = ['Drawer'];
 
 		if (!this.props.isOpen) {
 			cls.push('close')

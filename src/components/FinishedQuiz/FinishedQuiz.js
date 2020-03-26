@@ -1,7 +1,7 @@
-import React from 'react'
-import './FinishedQuiz.css'
-import Button from '../UI/Button/Button.js'
-import {Link} from 'react-router-dom'
+import React from 'react';
+import './FinishedQuiz.css';
+import Button from '../UI/Button/Button.js';
+import {Link} from 'react-router-dom';
 
 const FinishedQuiz = props =>{
 
@@ -10,7 +10,7 @@ const FinishedQuiz = props =>{
 			total++
 		}
 		return total
-	}, 0)
+	}, 0);
 
 
 	return (
@@ -25,7 +25,7 @@ const FinishedQuiz = props =>{
 						props.results[quizItem.id] === 'error' ? 'fa-times': 'fa-check',
 						props.results[quizItem.id] === 'error' ? 'error' : 'success'
 
-					]
+					];
 
 					return(
 						<li 
@@ -60,6 +60,6 @@ const FinishedQuiz = props =>{
 			</div>
 		</div>
 	) 
-}
+};
 
 export default FinishedQuiz

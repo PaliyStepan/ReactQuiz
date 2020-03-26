@@ -1,11 +1,11 @@
-import React from 'react'
-import './MenuToggle.css'
+import React from 'react';
+import './MenuToggle.css';
 
 
 const MenuToggle = props =>{
 	const cls = ['MenuToggle',
 		'fa',
-	]
+	];
 
 	if (props.isOpen) {
 		cls.push('fa-times')
@@ -21,6 +21,6 @@ const MenuToggle = props =>{
 			onClick={props.onToggle}
 		/>
 	)
-}
+};
 
 export default MenuToggle

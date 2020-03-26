@@ -1,6 +1,6 @@
-import React from 'react'
-import './AnswersList.css'
-import AnswerItem from './AnswerItem/AnswerItem.js'
+import React from 'react';
+import './AnswersList.css';
+import AnswerItem from './AnswerItem/AnswerItem.js';
 
 const AnswersList = props => (
 	<ul className="AnswersList">
@@ -15,7 +15,7 @@ const AnswersList = props => (
 			)
 		})}
 	</ul>
-)
+);
 
 
 export default AnswersList

@@ -1,8 +1,8 @@
-import React from 'react'
-import './Select.css'
+import React from 'react';
+import './Select.css';
 
 const Select = props => {
-	const htmlFor = `${props.lablel}-${Math.random()}`
+	const htmlFor = `${props.lablel}-${Math.random()}`;
 	return(
 		<div className="Select">
 			<label htmlFor={htmlFor}>{props.label} </label>
@@ -24,6 +24,6 @@ const Select = props => {
 			</select>
 		</div>
 	)
-}
+};
 
 export default Select
